@@ -7,6 +7,6 @@
 og:site_name="Uniqlo" and og:type="Website" twitter:card="product" and twitter:site="@UNIQLO_JP"
 ## Usage
  Script gets the input from the URL header after the ? fields available for parsing. 
- title, image and description are required also for twitter username is required.x
+ title, image and description are required.
 # Script type
 Open graph and twitter open graph are supported.
