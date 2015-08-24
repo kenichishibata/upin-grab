@@ -7,7 +7,7 @@
 	<meta name="viewport" 			content="width=device-width, initial-scale=1">
 	<meta property="fb:app_id"	    content="<?php echo $app_id;?>" />
 	<!-- dynamic meta tags -->
-	<meta property="og:url" 		content="<?php echo str_replace("%20","%2520",$url);?>" />
+	<meta property="og:url" 		content="<?php echo str_replace($array_r,"%2520",$url);?>" />
 	<meta property="og:type" 		content="website" /> 
 	<meta property="og:title" 		content="<?php echo $title;?>" />
 	<meta property="og:description" content="<?php echo $description;?>" />
