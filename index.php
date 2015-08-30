@@ -1,7 +1,7 @@
 <?php
 
 $SITE_ROOT = "http://www.uniqlo.com/jp/sp";
-$array_r = array("%20","+"," ");
+$array_r = array("%20","+"," ","。","、","！");
 
  if(isset($_GET['title'])){
 	$urltemp		="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
