@@ -8,7 +8,7 @@
 	<meta property="fb:app_id"	    content="<?php echo $app_id;?>" />
 	<!-- dynamic meta tags -->
 	<meta property="og:url" 		content="<?php echo str_replace($array_r,"%2520",$url);?>" />
-	<meta property="og:type" 		content="website" /> 
+	<!-- <meta property="og:type" 		content="website" />  -->
 	<meta property="og:title" 		content="<?php echo $title;?>" />
 	<meta property="og:description" content="<?php echo $description;?>" />
 	<!-- for fb (resolution handler for facebook)# -->
@@ -17,14 +17,14 @@
 	<meta property="og:image:height"content="825">
 	<meta property="og:image:height"content="675"> 
 	<meta property="og:image:width" content="640" />
-	
+
 	<!-- for line (resolution handler for linkedin and line) -->
 	<meta property="og:image" 		content="<?php echo $image;?>">
 	<meta property="og:image:width" content="180" />
 	<meta property="og:image:height"content="110" />
 	<meta property="og:site_name" 	content="<?php echo $site_name;?>">
 	<!-- twitter specific meta tags -->
-	<meta name="twitter:card"	    content="summary_large_image">
+	<meta name="twitter:card"	    content="summary">
 	<meta name="twitter:site"	    content="@UNIQLO_JP">
 	<meta name="twitter:creator" 	content="@UNIQLO_JP">
 		<meta name="twitter:title" 		content="<?php echo htmlspecialchars_decode($title);?>">
