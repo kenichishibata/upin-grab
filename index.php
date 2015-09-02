@@ -1,4 +1,5 @@
 <?php
+// header('Content-Type: text/html');
 
 $SITE_ROOT = "http://www.uniqlo.com/jp/sp";
 $array_replaceable = array("%20","+"," ","。","、","！","%E3%80%82","。","%E3%80%81","、","%EF%BC%81","！");
